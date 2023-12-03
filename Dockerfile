@@ -8,6 +8,8 @@ RUN   apt-get  install -y  npm
 RUN   apt-get  install -y yarn 
 RUN   npm install -g hexo-cli --no-optional
 CMD   npm install  hexo-cli -g
+CMD   npm install aplayer  
+CMD   npm install --save hexo-tag-aplayer  
 CMD   np  mupdate  hexo
 COPY  ./hexo  /root/web/frontend/hexo
 WORKDIR /root/web/frontend/hexo/

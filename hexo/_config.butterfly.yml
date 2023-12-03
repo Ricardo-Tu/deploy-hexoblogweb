@@ -792,7 +792,7 @@ inject:
   bottom:
     # Aplayer 音乐播放器配置：
     - <div class="aplayer no-destroy" 
-      data-id="7675104902" 
+      data-id="7758462803" 
       data-server="tencent" 
       data-type="playlist" 
       data-fixed="true" 

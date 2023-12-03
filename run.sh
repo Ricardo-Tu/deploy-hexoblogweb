@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 
-docker buildx build -f Dockerfile -t web:1.0 .
+docker build -f Dockerfile -t web:1.0 .
 
 docker run -p  80:4000 \
     -d \
