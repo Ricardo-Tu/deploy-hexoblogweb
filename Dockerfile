@@ -1,4 +1,4 @@
-FROM  ubuntu:latest
+FROM  ubuntu
 
 RUN   mkdir -p /root/web/frontend/
 RUN   apt-get update
