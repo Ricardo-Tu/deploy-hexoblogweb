@@ -15,7 +15,7 @@ categories:
 keywords: opengl
 description:
 cover: 6.png
-top_img: /media/top_img.jpg
+top_img: /media/16.jpg
 copyright_author:
 copyright_author_href:
 copyright_url:

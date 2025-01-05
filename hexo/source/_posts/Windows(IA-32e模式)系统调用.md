@@ -15,7 +15,7 @@ categories:
 keywords: system-call calling-convention
 description:
 cover: 7.png
-top_img: /media/top_img.jpg
+top_img: /media/1.jpg
 copyright_author:
 copyright_author_href:
 copyright_url:

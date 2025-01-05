@@ -62,7 +62,7 @@ avatar:
 disable_top_img: false
 
 #首页的横幅图片 首页背景
-index_img: /media/bg.jpg
+index_img: /media/14.jpg
 
 # 默认横幅图片
 default_top_img: /media/top_img.jpg
@@ -554,12 +554,8 @@ subtitle:
   loop: true
   source: false
   sub:
-    - 凡不能毁灭我的，必将使我强大。
-    - What doesn't kill me makes me stronger.    
-    - 世界上只有一种英雄主义，那就是在认清生活的真相后依然热爱生活。
-    - There is only one heroism in the world:to see the world as it is,and to love it.
-    - 滴水穿石。
-    - Constant dropping wears the stone.
+    - 向阳而生 逐光而行
+    - Live towards the sun and follow the light.
 
 # Loading Animation (加载动画)
 preloader: true

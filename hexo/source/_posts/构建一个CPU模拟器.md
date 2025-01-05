@@ -15,7 +15,7 @@ categories:
 keywords:
 description:
 cover: 5.png
-top_img: /media/top_img.jpg
+top_img: /media/9.jpg
 copyright_author:
 copyright_author_href:
 copyright_url:
