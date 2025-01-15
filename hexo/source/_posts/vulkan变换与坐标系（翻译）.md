@@ -12,7 +12,7 @@ date: 2024-08-10 12:00:00
 updated:
 tags: vulkan 
 categories:
-keywords: vulkan
+keywords:
 description:
 cover: 3.png
 top_img: /media/8.jpg
