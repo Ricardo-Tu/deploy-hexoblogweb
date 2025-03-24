@@ -14,7 +14,7 @@ tags: system
 categories:
 keywords:
 description:
-cover: 2.png
+cover: 2.svg
 top_img: /media/14.jpg
 copyright_author:
 copyright_author_href:
