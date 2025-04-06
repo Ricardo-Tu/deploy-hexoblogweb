@@ -26,27 +26,29 @@ copyright_info:
 ## 概述
 ### 背景
 - 如何评价一个cache系统的performance
-$$
-\begin{aligned}
-CPU_{time} 
-&= IC * (Alu_{Ops} / Inst * CPI_{AluOps} + (MemOps / Inst) * AMAT) * CycleTime \\
-&= IC * CPI * CycleTime
 
-\end{aligned}
-$$
+    $$
+    \begin{aligned}
+    CPU_{time} 
+    &= IC * (Alu_{Ops} / Inst * CPI_{AluOps} + (MemOps / Inst) * AMAT) * CycleTime \\
+    &= IC * CPI * CycleTime
+    \end{aligned}
+    $$
+
+
 `IC`: Instruction count，需要执行指令的数量
 `CPI`: Cycles Per Instruction,每条指令执行的平均时长
 `CycleTime`: 芯片一个周期的时间，提高主频降低每个周期的时间
 
 
 - Average Memory Access Time(AMAT)
-$$
-\begin{aligned}
-AMAT 
-&= HitRate * HitTime + MissRate * MissPenalty \\
-&= HitRate * HitTime_{inst} + MissRate_{inst} * MissPenalty_{inst} + HitTime_{data} + MissRate_{data} * MissPenalty_{data}
-\end{aligned}
-$$
+    $$
+    \begin{aligned}
+    AMAT 
+    &= HitRate * HitTime + MissRate * MissPenalty \\
+    &= HitRate * HitTime_{inst} + MissRate_{inst} * MissPenalty_{inst} + HitTime_{data} + MissRate_{data} * MissPenalty_{data}
+    \end{aligned}
+    $$
 
 - cache hit-rate/miss-rate: s/r
 Where s is the number of memory requests serviced by the cache and r is the total number of memory requests made to the cache.
