@@ -28,8 +28,7 @@ copyright_info:
 ## 背景
 
 ### cache coherence和memory consistency的区别
-这只是我个人的一点理解，cache coherence指的是多核处理器中每个核心的private cache line的数据的一致性，memory consistency指在多核处理器中，如果操作读写内存中的数据才能保证整个程序流程执行正确，而不会导致程序执行完，数据被随机修改，能产生很多不同的结果，维护程序正确执行而不产生随机记过的这个规则的模型被叫做memory consistency 
-model，这个model贯穿了硬件编译器和程序员的程序开发，这是一套开发规则约定
+这只是我个人的一点理解，cache coherence指的是多核处理器中每个核心的private cache line的数据的一致性，memory consistency指在多核处理器中，如果操作读写内存中的数据才能保证整个程序流程执行正确，而不会导致程序执行完，数据被随机修改，能产生很多不同的结果，维护程序正确执行而不产生随机记过的这个规则的模型被叫做memory consistency model，这个model贯穿了硬件编译器和程序员的程序开发，这是一套开发规则约定
 
 
 ### message passing
